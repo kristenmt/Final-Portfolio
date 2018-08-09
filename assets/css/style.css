@@ -14,25 +14,40 @@ nav{
     margin: 15px 0 0 35px;
     font-family: 'Comfortaa', cursive;
 }
-/* right side styling */
-#right-side{
-    margin-top: 35px;
+#social-media{
+    padding: 450px 5px 35px 40px;
+}
+/* right side about page styling */
+#right-side-about{
+    margin-top: 65px;
     font-family: 'Comfortaa', cursive;
 }
 #intro-text{
     text-align: center;
-    
+    margin-bottom: 70px;
 }
-#tech-list{
-    width: 50%;
+#intro-text h2{
+    font-size: 3.9em;
 }
+#intro-text h4{
+    font-size: 1.9em;
+}
+#tech-desc{
+    padding-left: 95px;
+}
+
 #tech-list li{
     border: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    padding: .25rem .25rem;
+}
+#info-text p{
+    text-align: center;
 }
 /* footer styling */
 #footer {
     position: fixed;
+    padding-top: 15px;
     left: 0;
     bottom: 0;
     width: 100%;
