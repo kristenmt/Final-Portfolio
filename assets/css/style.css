@@ -25,6 +25,7 @@ nav{
 #intro-text{
     text-align: center;
     margin-bottom: 70px;
+    border-bottom: 2px solid rgb(220, 270, 232);
 }
 #intro-text h2{
     font-size: 3.9em;
@@ -43,6 +44,30 @@ nav{
 }
 #info-text p{
     text-align: center;
+}
+
+/* portfolio page */
+#project-heading h4{
+    text-align: center;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  background-color: black;
+}
+ol.carousel-indicators li.active {
+  background-color: gray;
+}
+span.carousel-control-prev-icon, span.carousel-control-next-icon {
+    background-color: black;
+}
+
+/* contact page */
+button {
+    margin-top: 8px;
+}
+.btn:hover{
+    background-color: rgb(220, 270, 232);
+    color: black;
 }
 /* footer styling */
 #footer {
