@@ -1,0 +1,46 @@
+/* left side styling */
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: auto;
+}
+#left-side{
+    background-image: url(../images/regal-teal.png);
+    width: auto;
+    height: auto;
+    box-shadow: 3px 2px 1px rgb(190, 189, 189);
+}
+nav{
+    margin: 15px 0 0 35px;
+    font-family: 'Comfortaa', cursive;
+}
+/* right side styling */
+#right-side{
+    margin-top: 35px;
+    font-family: 'Comfortaa', cursive;
+}
+#intro-text{
+    text-align: center;
+    
+}
+#tech-list{
+    width: 50%;
+}
+#tech-list li{
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+/* footer styling */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(220, 270, 232);
+    color: black;
+    text-align: center;
+    font-family: 'Euphoria Script', cursive;
+}
+
+
+
