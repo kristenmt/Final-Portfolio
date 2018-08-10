@@ -57,10 +57,20 @@ ol.carousel-indicators li.active {
 ol.carousel-indicators li.active {
   background-color: gray;
 }
-span.carousel-control-prev-icon, span.carousel-control-next-icon {
-    background-color: black;
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2391k' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2391k' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-caption a, .carousel-caption p{
+    color: black;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.1);
+}
 /* contact page */
 button {
     margin-top: 8px;
@@ -81,6 +91,61 @@ button {
     text-align: center;
     font-family: 'Euphoria Script', cursive;
 }
+/* media queries */
 
+/* Large devices (desktops, 1141px and up) */
+@media (max-width: 1141px) {
+#social-media{
+    padding: 380px 5px 35px 45px;
+}
+nav{
+    margin-left: 10px;
+}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+#social-media{
+    padding-left: 35px;
+    padding-top: 420px;
+}
+#social-media img{
+    width: 70%;
+    height: auto;
+}
+nav{
+margin-left: -20px;
+font-size: 0.8em;
+}
+#right-side-about{
+    margin-top: 45px;
+    font-family: 'Comfortaa', cursive;
+}
+#intro-text{
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: 2px solid rgb(220, 270, 232);
+}
+#intro-text h2{
+    font-size: 2.9em;
+}
+#intro-text h4{
+    font-size: 1.1em;
+}
+#tech-desc{
+    padding-left: 65px;
+}
+
+}
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) {
+nav{
+    margin-left: -30px;
+}
+#tech-desc{
+    padding-left: 15px;
+}
+ }
 
 
