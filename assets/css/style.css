@@ -47,10 +47,63 @@ nav{
 }
 
 /* portfolio page */
+.gallery1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(220, 270, 232);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color:rgb(220, 270, 232);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .gallery1:hover .overlay1 {
+    width: 100%;
+  }
+  .gallery2:hover .overlay2 {
+    width: 100%;
+    left: 0;
+  }
+  
+  .text { 
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+/*
 #project-heading h4{
     text-align: center;
 }
-ol.carousel-indicators li,
+/* ol.carousel-indicators li,
 ol.carousel-indicators li.active {
   background-color: black;
 }
@@ -72,13 +125,14 @@ ol.carousel-indicators li.active {
     background: rgba(0,0,0,0.1);
 }
 /* contact page */
+/*
 button {
     margin-top: 8px;
 }
 .btn:hover{
     background-color: rgb(220, 270, 232);
     color: black;
-}
+} */
 /* footer styling */
 #footer {
     position: fixed;

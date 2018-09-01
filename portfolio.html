@@ -13,9 +13,13 @@
         crossorigin="anonymous">
     <!-- CSS stylesheet link -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/animate.css">
     <!-- jQuery link -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -31,21 +35,21 @@
                 <!-- navigation -->
                 <div class="row">
                     <div class="col-12">
-                            <nav class="navbar navbar-light">
-                                    <div id="navbarNav">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item" id="about">
-                                                <a class="nav-link" href="index.html" style="color: black;">About</a>
-                                            </li>
-                                            <li class="nav-item" id="portfolio">
-                                                <a class="nav-link" href="portfolio.html" style="color: gray;">Portfolio</a>
-                                            </li>
-                                            <li class="nav-item" id="contact">
-                                                <a class="nav-link" href="contact.html" style="color: black;">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </nav>
+                        <nav class="navbar navbar-light">
+                            <div id="navbarNav">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item" id="about">
+                                        <a class="nav-link" href="index.html" style="color: black;">About</a>
+                                    </li>
+                                    <li class="nav-item" id="portfolio">
+                                        <a class="nav-link" href="portfolio.html" style="color: gray;">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item" id="contact">
+                                        <a class="nav-link" href="contact.html" style="color: black;">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                     <div class="col-12" id="social-media">
                         <a href="https://github.com/kristenmt">
@@ -59,11 +63,119 @@
             </div>
 
             <!-- right side of page -->
-            <!-- portfolio page -->
             <div class="col-10" id="right-side-about">
                 <div class="row">
                     <div class="col-12" id="intro-text">
-                            <h4>Projects</h4>
+                        <h4 class="animated slideInDown">Projects</h4>
+                    </div>
+                </div>
+<div class="row">
+    <div class="col-6">
+                <div class="gallery1">
+                    <img src="assets/images/trivia-1.png" alt="trivia game image" class="image">
+                    <div class="overlay1">
+                        <div class="text">
+                            <p>This is a timed music trivia game I developed using jQuery timers.</p>
+                            <a class="caption-link" href="https://kristenmt.github.io/TriviaGame/">Trivia Quiz</a><br>
+                            <a class="caption-link" href="https://github.com/kristenmt/TriviaGame">Trivia Quiz Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6"></div>
+            </div>
+
+            <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                <div class="gallery2">
+                    <img src="assets/images/train-1.png" alt="train scheduler image" class="image">
+                    <div class="overlay2">
+                        <div class="text">
+                            <p>This is a real-time train app I developed using firebase.</p>
+                            <a class="caption-link" href="https://kristenmt.github.io/train-schedule/">Train Scheduler</a><br>
+                            <a class="caption-link" href="https://github.com/kristenmt/train-schedule">Train Scheduler Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="gallery1">
+                    <img src="assets/images/group-1.png" alt="group restaurant image" class="image">
+                    <div class="overlay1">
+                        <div class="text">
+                            <p>This is a restaurant selection generator app my group developed using APIs.</p>
+                            <a class="caption-link" href="https://kristenmt.github.io/group-1/">Restaurant App</a><br>
+                            <a class="caption-link" href="https://github.com/kristenmt/group-1">Restaurant App Repo</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6"></div>
+        </div>
+<div class="row">
+    <div class="col-6"></div>
+    <div class="col-6">
+                <div class="gallery2">
+                        <img src="assets/images/giphy-1.png" alt="giphy image" class="image">
+                        <div class="overlay2">
+                            <div class="text">
+                                    <p>This is a giphy generator app I developed using an API.</p>
+                                <a class="caption-link" href="https://kristenmt.github.io/Giphy-API/">Giphy App</a><br>
+                                <a class="caption-link" href="https://github.com/kristenmt/Giphy-API">Giphy App Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="gallery1">
+                            <img src="assets/images/liri-movie.png" alt="liri image" class="image">
+                            <div class="overlay1">
+                                <div class="text">
+                                        <p>This is the LIRI node app I developed using node.js and several APIs.</p>
+                                        <a class="caption-link" href="https://kristenmt.github.io/liri-node-app/">LIRI node App</a><br>
+                                        <a class="caption-link" href="https://github.com/kristenmt/liri-node-app">LIRI node App Repo</a>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6"></div>
+                </div>   
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <div class="gallery2">
+                                <img src="assets/images/bamazon.png" alt="bamazon image" class="image">
+                                <div class="overlay2">
+                                    <div class="text">
+                                            <p>This is the Bamazon node app I developed using node.js and MySQL.</p>
+                                            <a class="caption-link" href="https://github.com/kristenmt/kamazon-project">Bamazon node App Repo</a><br>
+                                            <a class="caption-link" href="https://kristenmt.github.io/kamazon-project/">Bamazon node App</a>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+
+
+            </div>
+
+
+
+
+            <!-- portfolio page -->
+            <!-- <div class="col-10" id="right-side-about">
+                <div class="row">
+                    <div class="col-12" id="intro-text">
+                            <h4 class="animated slideInDown">Projects</h4>
                     </div>
                 </div>
                             <div class="row">
@@ -160,7 +272,7 @@
                                 <div class="col-2">      
                                     </div>
                             </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div id="footer">
