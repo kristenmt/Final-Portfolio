@@ -32,13 +32,22 @@ nav{
     font-size: 3.9em;
 }
 #intro-text h4{
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 #tech-desc{
     padding-left: 95px;
 }
 
 #tech-list li{
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    padding: .15rem .25rem;
+}
+#software-desc{
+    padding-left: 95px;
+}
+
+#software-list li{
     border: none;
     font-family: 'Comfortaa', cursive;
     padding: .25rem .25rem;
