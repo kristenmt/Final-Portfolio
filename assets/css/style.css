@@ -14,9 +14,7 @@ nav{
     margin: 15px 0 0 35px;
     font-family: 'Comfortaa', cursive;
 }
-#social-media{
-    padding: 450px 5px 35px 40px;
-}
+
 /* right side about page styling */
 #right-side-about{
     margin-top: 35px;
@@ -155,7 +153,7 @@ button {
     color: black;
 }
 /* footer styling */
-#footer {
+#footer{
     position: fixed;
     padding-top: 15px;
     left: 0;
@@ -165,6 +163,22 @@ button {
     color: black;
     text-align: center;
     font-family: 'Euphoria Script', cursive;
+    padding-top: 10px;
+}
+#footer p{
+    margin-top: 20px;
+}
+#social-media{
+    padding: 0px 5px 15px -20px;
+}
+#social-media img{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-bottom: 10px;
+}
+#social-media img:last-child{
+    margin-left: 15px;
 }
 /* media queries */
 
