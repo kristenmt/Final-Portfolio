@@ -131,8 +131,9 @@ nav{
     transition: .3s ease;
 }
 
-.design p{
-    padding-bottom: 40px;
+.graphics {
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 
