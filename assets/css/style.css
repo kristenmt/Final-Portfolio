@@ -138,6 +138,10 @@ nav{
     padding: 20px 0;
 }
 
+.design :last-child{
+    margin-bottom: 70px;
+}
+
 
 
 
