@@ -119,17 +119,18 @@ nav{
 /* design portfolio page */
 
 
-.design img {
-    width: 40%;
+.design img{
+    width: 30%;
     height: auto;
     border-radius: 1%;
     transition: .3s ease;
     box-shadow: 0 2px 2px #000;
+    margin: 40px 0;
     
 }
 
-.design img:hover {
-    transform: scale(1.6);
+.design img:hover{
+    transform: scale(1.7);
     transition: .3s ease;
 }
 
