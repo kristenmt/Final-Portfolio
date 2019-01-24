@@ -19,6 +19,7 @@ nav{
 #right-side-about{
     margin-top: 35px;
     font-family: 'Comfortaa', cursive;
+    margin-bottom: 100px;
 }
 #intro-text{
     text-align: center;
@@ -53,6 +54,7 @@ nav{
 #info-text p{
     text-align: center;
 }
+
 
 /* web portfolio page */
 .gallery1 {
@@ -113,6 +115,9 @@ nav{
   a.caption-link {
       color: black;
   }
+  .gallery2 :last-child{
+    margin-bottom: 70px;
+}
 
 /* design portfolio page */
 
@@ -184,9 +189,9 @@ button {
 
 /* Large devices (desktops, 1141px and up) */
 @media (max-width: 1141px) {
-#social-media{
+/* #social-media{
     padding: 380px 5px 35px 45px;
-}
+} */
 nav{
     margin-left: 10px;
 }
@@ -195,12 +200,13 @@ nav{
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-#social-media{
+/* #social-media{
     padding-left: 35px;
     padding-top: 420px;
 }
+*/
 #social-media img{
-    width: 70%;
+    width: 50%;
     height: auto;
 }
 nav{
