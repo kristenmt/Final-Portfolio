@@ -123,7 +123,7 @@ nav{
     border-radius: 1%;
     transition: .3s ease;
     box-shadow: 0 2px 2px #000;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .design img:hover {
@@ -131,10 +131,10 @@ nav{
     transition: .3s ease;
 }
 
-.graphics {
+/* .graphics {
     padding-top: 40px;
     padding-bottom: 30px;
-}
+} */
 
 
 /* contact page */
