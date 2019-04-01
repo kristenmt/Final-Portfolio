@@ -1,14 +1,21 @@
-/* left side styling */
 body{
     margin: 0 auto;
     padding: 0 auto;
     height: auto;
 }
+span{
+    color: #cd2027;
+}
+/* left side styling */
 #left-side{
     background-image: url(../images/regal-teal.png);
     width: auto;
     height: auto;
     box-shadow: 3px 2px 1px rgb(190, 189, 189);
+}
+#left-side img{
+    padding-left: 25%;
+    margin-top: 10%;
 }
 nav{
     margin: 15px 0 0 35px;
